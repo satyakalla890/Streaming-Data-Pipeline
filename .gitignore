@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Project specific
+data/lake/*
+!data/lake/.gitkeep
+spark/checkpoint/*
+!spark/checkpoint/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
